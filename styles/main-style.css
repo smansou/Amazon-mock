@@ -1,0 +1,19 @@
+@import url("https://cdn.jsdelivr.net/gh/GoCloudHub/font-amazon-ember/fonts/amazonember/amazonember.css");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: "Amazon Ember", Arial, monospace;
+}
+
+#ad{
+    width:100%;
+    height: 40px;
+}

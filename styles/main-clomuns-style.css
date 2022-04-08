@@ -1,0 +1,30 @@
+
+.page1{
+    width: 100vw;
+}
+.main-page{
+    display: flex;
+    
+   
+    
+}
+
+.middle-column{
+    
+    flex-grow: 1;
+    max-width: 50%;
+}
+.right-column{
+    width: 20%;
+    max-width: 250px;
+    flex-grow: 1;
+}
+
+.left-column{
+    width: 30%;
+    flex-grow: 1;
+}
+
+.main-page>div {
+    border: 1px solid black;
+}
