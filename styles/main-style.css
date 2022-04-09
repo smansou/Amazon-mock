@@ -7,9 +7,42 @@
     box-sizing: border-box;
 }
 
+html, body {
+   
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
 
+}
 
 body{
+
     font-family: "Amazon Ember", Arial, monospace;
 }
 
+table{
+    padding: 7px 5px;
+}
+tr td{
+    padding: 3px 2px;
+    
+}
+
+.blue-link{
+    color: #007185;
+    cursor: pointer;
+}
+
+.small-grey-text{
+    color: rgb(90, 90, 90);
+}
+
+.price-usd-large{
+    color: rgb(177, 39, 4);
+    font-size: 18px;
+}
+.price-usd-small{
+    color: rgb(177, 39, 4);
+    font-size: 14px;
+}
