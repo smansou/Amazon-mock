@@ -50,6 +50,14 @@
  white-space: nowrap;
 
 }
+.deliver-to-icon:hover, .account-dropdown:hover, .returns-orders :hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.returns-orders>a{
+    padding: 5px 0;
+
+}
  .top-nav-items li a{
     padding: 5px;
      color: white;
@@ -122,9 +130,15 @@
     color: white;
     text-decoration: none;
     list-style: none;
-    padding: 10px;
+    padding: 8px 10px;
 
  }
+
+ .lower-nav-items>*:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
 
  /* -------------------------LOWER AD NAVBAR -------------------------------*/
 

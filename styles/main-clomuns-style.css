@@ -191,11 +191,11 @@ tr{
 
 .gallery-wrapper{
     height: 1000px;
+    width: 100%;
 }
 .image-gallery-container{
     padding: 5px 10x;
     margin-left: 8px;
-    
     width: 100%;
     height: 400px;
     position: -webkit-sticky;
@@ -221,7 +221,7 @@ tr{
     
 }
 .image-gallery-main>img{
-    width:90%;
+    width:100%;
 
 }
 
@@ -229,8 +229,13 @@ tr{
 .small-img{
     display: block;
     width: 40px;
-    padding: 10px 0;
+    padding-top: 10px;
 }
+.small-img:hover{
+   border: 10px rgb(216, 134, 2);
+   cursor: pointer;
+}
+
 
 
 
