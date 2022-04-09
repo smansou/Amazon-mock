@@ -37,7 +37,11 @@
     justify-content: space-between;
     
 }
-
+.logo>img{
+    width:90px;
+    height: auto;
+    padding-top: 14px;
+}
 
 .top-nav-items li{
  list-style: none;
